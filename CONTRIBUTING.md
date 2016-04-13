@@ -128,7 +128,7 @@ project's developers might not want to merge into the project.
 In particular, **pull requests that add new features to Typosaurus v0.* will be
 rejected.** Typosaurus v0.* is now in maintenance mode and is therefore closed
 off to new features, so that we can focus our efforts on Typosaurus v.1.0.0-alpha, the
-future of the framework. Pull requests that add new features should target the develop branch `v1-develop`
+future of the framework. Pull requests that add new features should target the develop branch `1.0.x-develop`
 
 Please adhere to the [coding guidelines](#code-guidelines) used throughout the
 project (indentation, accurate comments, etc.) and any other requirements
