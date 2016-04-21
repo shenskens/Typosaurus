@@ -12,7 +12,6 @@
 
 ## Requirements
 
-- [LESS][Download the latest release](https://github.com/twbs/bootstrap/archive/v3.3.6.zip).
 - [SCSS][Download the latest release](https://github.com/twbs/bootstrap/archive/v4.0.0-alpha.2.zip).
 
 
@@ -22,16 +21,19 @@ Within the download you'll find the following directories and files. You'll see 
 
 ```
 TyposaurusBundle/
-├── less/
-├── scss/
-│   ├── mixins/
-│   ├── _variables.scss
-│   └── typosaurus.scss
+├── bootstrap-v4alpha2/
+│   ├── scss/
+│       ├── components/
+│       ├── core/
+│       ├── functions/
+│       ├── _factors.scss
+│       ├── _variables.scss
+│       └── typosaurus.scss
 ├── LICENSE
 ├── README.md
 ```
 
-We provide scss and less files only developed for `bootstrap v3.3.6` as less version and `bootstrap v4.0.0-alpha.2` as sass.
+We provide scss files only developed for `bootstrap v4.0.0-alpha.2`.
 
 
 ## Bugs and feature requests

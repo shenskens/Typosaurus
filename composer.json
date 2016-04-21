@@ -1,0 +1,31 @@
+{
+	"name": "typosaurus",
+	"description": "Add a typographic grid to Twitter Bootstrap.",
+	"keywords": [
+		"css",
+		"js",
+		"sass",
+		"mobile-first",
+		"responsive",
+		"typography",
+		"front-end",
+		"framework",
+		"web"
+	],
+	"homepage": "http://stephanhenskens.com",
+	"authors": [
+		{
+			"name": "Stephan Henskens",
+			"email": "shenskens@gmail.com"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/shenskens/typosaurus/issues"
+	},
+	"license": "MIT",
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.0.x-develop"
+		}
+	}
+}
