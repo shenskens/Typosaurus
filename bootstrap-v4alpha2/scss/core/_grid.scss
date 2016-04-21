@@ -1,0 +1,9 @@
+//== Grid
+//
+// Font, line-height, and color for body text, headings, and more.
+// Variables added by Typosaurus are marked with `//=[New variable]`
+//=======================================================================
+
+$grid-gutter-width:          get-spacer(2) !default;
+$grid-gutter-width-lg:       get-spacer(3) !default;  //=[New variable]
+$grid-gutter-width-sm:       0 !default;              //=[New variable]

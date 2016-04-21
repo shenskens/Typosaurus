@@ -1,0 +1,100 @@
+//== Border Radius
+//
+// Variables added by Typosaurus are marked with `//=[New variable]`
+//=======================================================================
+
+//== Buttons
+//
+// For each of Bootstrap's buttons, define text, background and border color.
+//=======================================================================
+
+$btn-border-radius:				$border-radius !default;
+$btn-border-radius-lg:		$border-radius-lg !default;
+$btn-border-radius-sm:		$border-radius-sm !default;
+
+//== Forms
+//=======================================================================
+
+$input-border-radius:		  $border-radius !default;
+$input-border-radius-lg:	$border-radius-lg !default;
+$input-border-radius-sm:	$border-radius-sm !default;
+
+//== Navs
+//=======================================================================
+
+$nav-pills-border-radius:	    $border-radius !default;
+$nav-pills-border-radius-lg:	$border-radius-lg !default;  //=[New variable]
+$nav-pills-border-radius-sm:	$border-radius-sm !default;  //=[New variable]
+
+//== Pager
+//=======================================================================
+
+$pager-border-radius:			$border-radius !default;
+$pager-border-radius-lg:	$border-radius-lg !default;  //=[New variable]
+$pager-border-radius-sm:	$border-radius-sm !default;  //=[New variable]
+
+//== Cards
+//=======================================================================
+
+$card-border-radius:		        $border-radius !default;
+$card-border-radius-lg:		      $border-radius-lg !default;     //=[New variable]
+$card-border-radius-sm:		      $border-radius-sm !default;     //=[New variable]
+
+$card-border-radius-inner: 	    $card-border-radius !default;
+$card-border-radius-lg-inner:   $card-border-radius-lg !default;   //=[New variable]
+$card-border-radius-sm-inner:   $card-border-radius-sm !default;   //=[New variable]
+
+//== Alerts
+//
+// Define alert colors, border radius, and padding.
+//=======================================================================
+
+$alert-border-radius:			$border-radius !default;
+$alert-border-radius-lg:	$border-radius-lg !default;  //=[New variable]
+$alert-border-radius-sm:	$border-radius-sm !default;  //=[New variable]
+
+//== Progress bars
+//=======================================================================
+
+$progress-border-radius:		  $border-radius !default;
+$progress-border-radius-lg:		$border-radius-sm !default;  //=[New variable]
+$progress-border-radius-sm:		$border-radius-sm !default;  //=[New variable]
+
+//== List group
+//=======================================================================
+
+$list-group-border-radius:			  $border-radius !default;
+$list-group-border-radius-lg:			$border-radius-lg !default;  //=[New variable]
+$list-group-border-radius-sm:			$border-radius-sm !default;  //=[New variable]
+
+//== Image thumbnails
+//=======================================================================
+
+$thumbnail-border-radius:		    $border-radius !default;
+$thumbnail-border-radius-lg:		$border-radius-lg !default;  //=[New variable]
+$thumbnail-border-radius-sm:		$border-radius-sm !default;  //=[New variable]
+
+//== Breadcrumbs
+//=======================================================================
+
+$breadcrumb-border-radius:	 	  $border-radius !default;  //=[New variable]
+$breadcrumb-border-radius-lg:	 	$border-radius-lg !default;  //=[New variable]
+$breadcrumb-border-radius-sm:	 	$border-radius-sm !default;  //=[New variable]
+
+//== Carousel
+//=======================================================================
+
+$carousel-control-border-radius:			  $border-radius !default;  //=[New variable]
+$carousel-control-border-radius-lg:			$border-radius-lg !default;  //=[New variable]
+$carousel-control-border-radius-sm:			$border-radius-sm !default;  //=[New variable]
+
+$carousel-indicator-border-radius:		  $border-radius !default;  //=[New variable]
+$carousel-indicator-border-radius-lg:		$border-radius-lg !default;  //=[New variable]
+$carousel-indicator-border-radius-sm:		$border-radius-sm !default;  //=[New variable]
+
+//== Close
+//=======================================================================
+
+$close-border-radius:				  $border-radius !default;      //=[New variable]
+$close-border-radius-lg:			$border-radius-lg !default;   //=[New variable]
+$close-border-radius-sm:			$border-radius-sm !default;   //=[New variable]

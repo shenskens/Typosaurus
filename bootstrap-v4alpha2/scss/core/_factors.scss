@@ -1,0 +1,26 @@
+//== Factors
+//
+// Define the factors containing pre-calculated formulas
+// ------------------------------------------
+
+$factors: (
+  'minor-first':           calculate-factor(4, 3),        //** 4:3 - Minor first
+  'major-first':           calculate-factor(8, 7),        //** 8:7 - Major first
+  'minor-second':          calculate-factor(15, 16),      //** 15:16 - Minor second
+  'major-second':          calculate-factor(8, 9),        //** 8:9 - Major second
+  'minor-third':           calculate-factor(5, 6),        //** 5:6 - Minor third
+  'major-third':           calculate-factor(4, 5),        //** 4:5 - Major third
+  'perfect-fourth':        calculate-factor(3, 4),        //** 3:4 - Perfect fourth
+  'aug-fourth-dim-fifth':  calculate-factor(1, 2, true),  //** 1:√2 - Augmented fourth / diminished fifth
+  'perfect-fifth':         calculate-factor(2, 3),        //** 2:3 - Perfect fifth
+  'minor-sixth':           calculate-factor(5, 8),        //** 5:8 - Minor sixth
+  'golden-section':        calculate-factor(1, 1.168),    //** 1:1.618 - Golden Section
+  'major-sixth':           calculate-factor(3, 5),        //** 3:5 Major sixth
+  'minor-seventh':         calculate-factor(9, 16),       //** 9:16 - Minor Seventh
+  'major-seventh':         calculate-factor(8, 15),       //** 8:15 - Major seventh
+  'octave':                calculate-factor(1, 2),        //** 1:2 - Octave
+  'major-tenth':           calculate-factor(2, 5),        //** 2:5 - Major tenth
+  'major-eleventh':        calculate-factor(8, 8),        //** 3:8 - Major eleventh
+  'major-twelfth':         calculate-factor(1, 3),        //** 1:3 - Major twelfth
+  'double-octave':         calculate-factor(1, 4)         //** 1:4 - Double octave
+);
