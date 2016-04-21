@@ -1,0 +1,29 @@
+{
+  "name": "Typosaurus",
+  "homepage": "https://github.com/shenskens/Typosaurus",
+  "authors": [
+    "Stephan Henskens <s.henskens@gmail.com>"
+  ],
+  "description": "Add a typographic built grid to Twitters' Bootstrap",
+  "main": "scss/typosaurus.scss",
+  "moduleType": [],
+  "keywords": [
+    "sass",
+    "css",
+    "bootstrap",
+    "mobile-first",
+    "responsive",
+    "typography",
+    "front-end",
+    "framework",
+    "web"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
