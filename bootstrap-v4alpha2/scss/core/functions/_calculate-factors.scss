@@ -1,0 +1,7 @@
+// Calculate factor
+
+@function calculate-factor($x1, $x2, $sqrt: false) {
+  // Divide `$x2` by `$x1` and apply square-root when necessary.
+  @if $sqrt == true { $calculated: ($x2 / sqrt($x1)); } @else { $calculated: ($x2 / $x1); }
+  @return $calculated;
+}
