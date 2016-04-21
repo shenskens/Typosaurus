@@ -12,7 +12,8 @@
 
 ## Requirements
 
-- [SCSS][Download the latest release](https://github.com/twbs/bootstrap/archive/v4.0.0-alpha.2.zip).
+- [SCSS][Download the latest release](https://github.com/shenskens/Typosaurus/archive/v1.0.0-alpha.1.zip).
+- [SCSS][Download Twitters' Bootstrap v4.0.0-alpha.2 release](https://github.com/twbs/bootstrap/archive/v4.0.0-alpha.2.zip).
 
 
 ### What's included
@@ -21,19 +22,23 @@ Within the download you'll find the following directories and files. You'll see 
 
 ```
 TyposaurusBundle/
-├── bootstrap-v4alpha2/
-│   ├── scss/
-│       ├── components/
-│       ├── core/
-│       ├── functions/
-│       ├── _factors.scss
-│       ├── _variables.scss
-│       └── typosaurus.scss
+├── scss/
+│   ├── components/
+│   │   └── {{ component.name }}
+│   │       └── Mixins/
+│   │       └── _components.scss
+│   │       └── _mixins.scss
+│   │       └── _variables.scss
+│   ├── core/
+│   │   └── functions/
+│   ├── _factors.scss
+│   ├── _variables.scss
+│   └── typosaurus.scss
 ├── LICENSE
 ├── README.md
 ```
 
-We provide scss files only developed for `bootstrap v4.0.0-alpha.2`.
+We provide scss files only built for Twitters' Bootstrap
 
 
 ## Bugs and feature requests
