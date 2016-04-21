@@ -5,17 +5,17 @@
  */
 
 // Importing Compass
-@import "compass";
+@import "../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass";
 
 // Core functions
 @import "core/functions/calculate-factored",
-        "core/functions/calculate-factors",
-        "core/functions/calculate-spacer",
-        "core/functions/strip-unit";
+"core/functions/calculate-factors",
+"core/functions/calculate-spacer",
+"core/functions/strip-unit";
 
 // Core elements
 @import "core/factors",
-        "core/spacer";
+"core/spacer";
 
 // Variables
 @import "variables";
