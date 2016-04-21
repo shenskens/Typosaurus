@@ -1,0 +1,6 @@
+// Heading size
+
+@mixin heading-size ($margin-top, $margin-bottom) {
+  margin-bottom: $margin-bottom;
+  margin-top: $margin-top;
+}

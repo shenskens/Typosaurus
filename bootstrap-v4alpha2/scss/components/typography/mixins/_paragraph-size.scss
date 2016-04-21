@@ -1,0 +1,7 @@
+// Paragraph size
+
+@mixin paragraph-size ($font-size, $margin-top, $margin-bottom) {
+  font-size: $font-size;
+  margin-bottom: $margin-bottom;
+  margin-top: $margin-top;
+}
