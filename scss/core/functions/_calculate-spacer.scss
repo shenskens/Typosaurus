@@ -1,52 +1,9 @@
 // Calculate spacer
 // ------------------------------------------
 
-@function calculate-spacer($font-size: $font-size-base, $line-height: $line-height-base) {
+@function calculate-spacer($font-size, $line-height) {
   // Multiply the provided `font-size` and `line-height`.
   // Divide the outcome in half because this also involves the `$grid-gutter-width`
   // The `$grid-gutter-width` is built-up from 2 spacers.
   @return (($font-size * $line-height) / 2);
-}
-
-// Get spacer value
-//
-// Divide or multiply `$spacer` with `$property` to get the desired result
-// ------------------------------------------
-
-@function get-spacer-value($property, $amount) {
-  @if $amount == '1/4' {
-    @return ($property / 4);        // If 1/4 is needed, return 1/4 of `$spacer`
-  } @else if $amount == '3/4' {
-    @return ($property * 0.75);     // If 3/4 is needed, return 3/4 of `$spacer`
-  } @else if $amount == '1/3' {
-    @return ($property / 3);        // If 1/3 is needed, return 1/3 of `$spacer`
-  } @else if $amount == '2/3' {
-    @return (($property / 3) * 2);  // If 2/3 is needed, return 2/3 of `$spacer`
-  } @else if $amount == '1/2' {
-    @return ($property / 2);        // If 1/2 is needed, return 1/2 of `$spacer`
-  }
-  @return ($property * $amount);
-}
-
-// Get general `$spacer`
-// ------------------------------------------
-
-@function get-spacer($amount: 1) {
-  // Multiple `$spacer` with `$property` to get the desired result
-  @return get-spacer-value($spacer, $amount);
-}
-
-// Get horizontal `$spacer`
-// ------------------------------------------
-
-@function get-spacer-x($amount: 1) {
-  // Multiple `$spacer` with `$property` to get the desired result
-  @return get-spacer-value($spacer-x, $amount);
-}
-
-// Get vertical `$spacer`
-// ------------------------------------------
-@function get-spacer-y($amount: 1) {
-  // Multiple `$spacer` with `$property` to get the desired result
-  @return get-spacer-value($spacer-y, $amount);
 }

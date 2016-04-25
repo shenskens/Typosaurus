@@ -26,129 +26,129 @@
 // Customizes the `.table` component with basic values, each used across all table variations.
 //=======================================================================
 
-$table-cell-padding:			  get-spacer(2) !default;
-$table-cell-padding-lg:			get-spacer(4) !default;  //=[New variable]
-$table-cell-padding-sm:			get-spacer(1) !default;  //=[New variable] - Alias for `$table-sm-cell-padding` for supporting $component-modifier-state-property
+$table-cell-padding:      get-spacer(2) !default;
+$table-cell-padding-lg:   get-spacer(4) !default; //=[New variable]
+$table-cell-padding-sm:   get-spacer(1) !default; //=[New variable] - Alias for `$table-sm-cell-padding` for supporting $component-modifier-state-property
 
 // Support bootstrap's default variable
-$table-sm-cell-padding:			$table-cell-padding-sm !default;
+$table-sm-cell-padding:   $table-cell-padding-sm !default;
 
 //== Buttons
 //
 // For each of Bootstrap's buttons, define text, background and border color.
 //=======================================================================
 
-$btn-padding-height:		get-spacer-y(3) !default;       //=[New variable]
-$btn-padding-x:					get-spacer-x(2) !default;
-$btn-padding-y:					get-spacer-y('2/3') !default;
+$btn-padding-height:        get-spacer-y(3) !default; //=[New variable]
+$btn-padding-x:             get-spacer-x(2) !default;
+$btn-padding-y:             get-spacer-y('2/3') !default;
 
-$btn-padding-height-sm: get-spacer-y(3) !default;       //=[New variable]
-$btn-padding-x-sm:			get-spacer-x(1) !default;
-$btn-padding-y-sm:			get-spacer-y('1/3') !default;
+$btn-padding-height-sm:     get-spacer-y(3) !default; //=[New variable]
+$btn-padding-x-sm:          get-spacer-x(1) !default;
+$btn-padding-y-sm:          get-spacer-y('1/3') !default;
 
-$btn-padding-height-lg:	get-spacer-y(4) !default;       //=[New variable]
-$btn-padding-x-lg:			get-spacer-x(2) !default;
-$btn-padding-y-lg:			get-spacer-y(1) !default;
+$btn-padding-height-lg:     get-spacer-y(4) !default; //=[New variable]
+$btn-padding-x-lg:          get-spacer-x(2) !default;
+$btn-padding-y-lg:          get-spacer-y(1) !default;
 
 //== Forms
 //=======================================================================
 
-$input-padding-x:			get-spacer-x(2) !default;
-$input-padding-y:			get-spacer-y('1/2') !default;
+$input-padding-x:           get-spacer-x(2) !default;
+$input-padding-y:           get-spacer-y('1/2') !default;
 
-$input-padding-x-sm:	get-spacer-x(1) !default;
-$input-padding-y-sm:	get-spacer-y('1/3') !default;
+$input-padding-x-sm:        get-spacer-x(1) !default;
+$input-padding-y-sm:        get-spacer-y('1/3') !default;
 
-$input-padding-x-lg:	get-spacer-x(3) !default;
-$input-padding-y-lg:	get-spacer-y(1) !default;
+$input-padding-x-lg:        get-spacer-x(3) !default;
+$input-padding-y-lg:        get-spacer-y(1) !default;
 
 //== Navs
 //=======================================================================
 
 // Create these variables to keep semantics
-$navbar-padding-x:		        get-spacer-x(2) !default;  //=[New variable] - Alias for `$navbar-padding-horizontal` for supporting $component-modifier-state-property
-$navbar-padding-y:			      get-spacer-y(1) !default;  //=[New variable] - Alias for `$navbar-padding-vertical` for supporting $component-modifier-state-property
+$navbar-padding-x:          get-spacer-x(2) !default; //=[New variable] - Alias for `$navbar-padding-horizontal` for supporting $component-modifier-state-property
+$navbar-padding-y:          get-spacer-y(1) !default; //=[New variable] - Alias for `$navbar-padding-vertical` for supporting $component-modifier-state-property
 
-$nav-link-padding-x:					get-spacer-x(2) !default;       //=[New variable]
-$nav-link-padding-y:					get-spacer-y('2/3') !default;   //=[New variable]
+$nav-link-padding-x:        get-spacer-x(2) !default; //=[New variable]
+$nav-link-padding-y:        get-spacer-y('2/3') !default; //=[New variable]
 
 // Support bootstrap's default variable
-$navbar-padding-horizontal:		$navbar-padding-x !default;
-$navbar-padding-vertical:			$navbar-padding-y !default;
+$navbar-padding-horizontal: $navbar-padding-x !default;
+$navbar-padding-vertical:   $navbar-padding-y !default;
 
-$nav-link-padding:						$nav-link-padding-y $nav-link-padding-x !default;
+$nav-link-padding:          $nav-link-padding-y $nav-link-padding-x !default;
 
 //== Pagination
 //=======================================================================
 
-$pagination-padding-x:				get-spacer-x(2) !default;
-$pagination-padding-y:				get-spacer-y('2/3') !default;
-$pagination-padding-x-lg:			get-spacer-x(2) !default;
-$pagination-padding-y-lg:			get-spacer-y(1) !default;
-$pagination-padding-x-sm:			get-spacer-x(1) !default;
-$pagination-padding-y-sm:			get-spacer-y('1/3') !default;
+$pagination-padding-x:      get-spacer-x(2) !default;
+$pagination-padding-y:      get-spacer-y('2/3') !default;
+$pagination-padding-x-lg:   get-spacer-x(2) !default;
+$pagination-padding-y-lg:   get-spacer-y(1) !default;
+$pagination-padding-x-sm:   get-spacer-x(1) !default;
+$pagination-padding-y-sm:   get-spacer-y('1/3') !default;
 
 //== Jumbotron
 //=======================================================================
 
-$jumbotron-padding:			  get-spacer(2) !default;
-$jumbotron-padding-lg:		get-spacer(4) !default;   //=[New variable]
-$jumbotron-padding-sm:		get-spacer(1) !default;   //=[New variable]
+$jumbotron-padding:         get-spacer(2) !default;
+$jumbotron-padding-lg:      get-spacer(4) !default; //=[New variable]
+$jumbotron-padding-sm:      get-spacer(1) !default; //=[New variable]
 
 //== Cards
 //=======================================================================
 
-$card-spacer-x:				  get-spacer-x(2) !default;
-$card-spacer-y:				  get-spacer-y(1) !default;
-$card-spacer-x-lg:			get-spacer-x(3) !default;     //=[New variable]
-$card-spacer-y-lg:			get-spacer-y(2) !default;     //=[New variable]
-$card-spacer-x-sm:			get-spacer-x(1) !default;     //=[New variable]
-$card-spacer-y-sm:		  get-spacer-y('1/2') !default; //=[New variable]
+$card-spacer-x:       get-spacer-x(2) !default;
+$card-spacer-y:       get-spacer-y(1) !default;
+$card-spacer-x-lg:    get-spacer-x(3) !default; //=[New variable]
+$card-spacer-y-lg:    get-spacer-y(2) !default; //=[New variable]
+$card-spacer-x-sm:    get-spacer-x(1) !default; //=[New variable]
+$card-spacer-y-sm:    get-spacer-y('1/2') !default; //=[New variable]
 
 //== Modals
 //
 // Padding applied to the modal body
 //=======================================================================
 
-$modal-inner-padding:			get-spacer(2) !default;
-$modal-title-padding:			get-spacer(2) !default;
+$modal-inner-padding: get-spacer(2) !default;
+$modal-title-padding: get-spacer(2) !default;
 
 //== Alerts
 //=======================================================================
 
 // Create these variables to keep semantics
-$alert-padding-x:					get-spacer-x(2) !default;     //=[New variable]
-$alert-padding-y:					get-spacer-y(1) !default;     //=[New variable]
-$alert-padding-x-lg:			get-spacer-x(3) !default;     //=[New variable]
-$alert-padding-y-lg:			get-spacer-y(2) !default;     //=[New variable]
-$alert-padding-x-sm:			get-spacer-x(1) !default;     //=[New variable]
-$alert-padding-y-sm:			get-spacer-y('1/3') !default; //=[New variable]
+$alert-padding-x:     get-spacer-x(2) !default; //=[New variable]
+$alert-padding-y:     get-spacer-y(1) !default; //=[New variable]
+$alert-padding-x-lg:  get-spacer-x(3) !default; //=[New variable]
+$alert-padding-y-lg:  get-spacer-y(2) !default; //=[New variable]
+$alert-padding-x-sm:  get-spacer-x(1) !default; //=[New variable]
+$alert-padding-y-sm:  get-spacer-y('1/3') !default; //=[New variable]
 
 // Support bootstrap's default variable
-$alert-padding:					  $alert-padding-x $alert-padding-y !default;
-$alert-padding-lg:				$alert-padding-x-lg $alert-padding-y-lg !default;  //=[New variable]
-$alert-padding-sm:				$alert-padding-x-sm $alert-padding-y-sm !default;  //=[New variable]
+$alert-padding:       $alert-padding-x $alert-padding-y !default;
+$alert-padding-lg:    $alert-padding-x-lg $alert-padding-y-lg !default; //=[New variable]
+$alert-padding-sm:    $alert-padding-x-sm $alert-padding-y-sm !default; //=[New variable]
 
 //== Image thumbnails
 //=======================================================================
 
-$thumbnail-padding:				  get-spacer-y(1) !default;
-$thumbnail-padding-lg:			get-spacer-y(2) !default;
-$thumbnail-padding-sm:			get-spacer-y('1/2') !default;
+$thumbnail-padding:     get-spacer-y(1) !default;
+$thumbnail-padding-lg:  get-spacer-y(2) !default;
+$thumbnail-padding-sm:  get-spacer-y('1/2') !default;
 
 //== Breadcrumbs
 //=======================================================================
 
 // Create these variables to keep semantics
-$breadcrumb-padding-y:	 	get-spacer-y(1) !default;  //=[New variable]
-$breadcrumb-padding-x:		get-spacer-y(2) !default;  //=[New variable]
+$breadcrumb-padding-y: get-spacer-y(1) !default; //=[New variable]
+$breadcrumb-padding-x: get-spacer-y(2) !default; //=[New variable]
 
 // Support bootstrap's default variable
-$breadcrumb-padding-vertical:	 	$breadcrumb-padding-y !default;
-$breadcrumb-padding-horizontal:	$breadcrumb-padding-x !default;
+$breadcrumb-padding-vertical:   $breadcrumb-padding-y !default;
+$breadcrumb-padding-horizontal: $breadcrumb-padding-x !default;
 
 //== Miscellaneous
 //=======================================================================
 
 // Carets
-$caret-width:			get-spacer-x('1/2') !default;
+$caret-width:   get-spacer-x('1/2') !default;

@@ -2,6 +2,5 @@
 
 @function calculate-factored($i, $factor) {
   // Multiply the provided `$integer` with the `$scale-factor`.
-  $calculated: ($i * $factor);
-  @return $calculated;
+  @return ($i * $factor);
 }

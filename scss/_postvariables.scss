@@ -1,0 +1,13 @@
+// Controllable core elements
+@import "core/functions/calculate-factored",
+        "core/functions/calculate-spacer",
+        "core/mixins",
+        "core/spacer",
+        "core/functions/get-spacer",
+        "core/typography",
+        "core/spacing",
+        "core/border-radius",
+        "core/grid";
+
+// Import components after your bootstrap components import
+// @import "components/type";
