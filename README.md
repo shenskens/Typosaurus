@@ -12,7 +12,7 @@
 
 ## Requirements
 
-- [SCSS][Download the latest release](https://github.com/shenskens/Typosaurus/archive/v1.0.0-alpha.1.zip).
+- [SCSS][Download the latest release](https://github.com/shenskens/Typosaurus/archive/v1.0.1-alpha.1.zip).
 - [SCSS][Download Twitters' Bootstrap v4.0.0-alpha.2 release](https://github.com/twbs/bootstrap/archive/v4.0.0-alpha.2.zip).
 
 
@@ -24,14 +24,10 @@ Within the download you'll find the following directories and files. You'll see 
 TyposaurusBundle/
 ├── scss/
 │   ├── components/
-│   │   └── {{ component.name }}
-│   │       └── Mixins/
-│   │       └── _components.scss
-│   │       └── _mixins.scss
-│   │       └── _variables.scss
 │   ├── core/
 │   │   └── functions/
-│   ├── _factors.scss
+│   ├── _postvariables.scss
+│   ├── _prevariables.scss
 │   ├── _variables.scss
 │   └── typosaurus.scss
 ├── LICENSE
@@ -51,7 +47,7 @@ Have a bug or a feature request? Please first search for existing and closed iss
 Get updates on Typosaurus' development and chat with the project maintainers and community members.
 
 - Join [the official Slack room (Gamehouse employees only)](#frontend).
-- Developers should use the keyword `typosaurus` on packages which modify or add to the functionality of Typosaurus when distributing through [npm](https://www.npmjs.com/browse/keyword/bootstrap) or similar delivery mechanisms for maximum discoverability.
+- Developers should use the keyword `typosaurus` on packages which modify or add to the functionality of Typosaurus when distributing through [npm](https://www.npmjs.com/browse/keyword/typosaurus) or similar delivery mechanisms for maximum discoverability.
 
 
 ## Versioning
