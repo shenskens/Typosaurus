@@ -1,0 +1,64 @@
+//== Type
+//
+// Setup typographic styles based on new variables.
+// ------------------------------------------
+
+// Headings
+@each $type, $property in $headings {
+  #{$type} {
+    @include heading-size(map-get($property, margin-top), map-get($property, margin-bottom));
+  }
+  // These declarations are kept separate from and placed after
+  // the previous tag-based declarations so that the classes beat the tags in
+  // the CSS cascade, and thus <h1 class="h2"> will be styled like an h2.
+  .#{$type} {
+    @include heading-size(map-get($property, margin-top), map-get($property, margin-bottom));
+  }
+}
+
+//== Paragraph
+// ------------------------------------------
+
+p, .paragraph {
+  line-height: $line-height;
+  @include paragraph-size($paragraph-font-size, $paragraph-margin-top, $paragraph-margin-bottom);
+
+  &.paragraph-lg {
+    @include paragraph-size($paragraph-font-size-lg, $paragraph-margin-top-lg, $paragraph-margin-bottom-lg);
+  }
+  &.paragraph-sm {
+    @include paragraph-size($paragraph-font-size-sm, $paragraph-margin-top-sm, $paragraph-margin-bottom-sm);
+  }
+}
+
+//== Lists
+// ------------------------------------------
+
+ul, ol, .list {
+  margin-bottom: $list-margin-bottom;
+  margin-top: $list-margin-top;
+  padding-left: $list-indent;
+
+  li, .list-item {
+    line-height: $list-line-height;
+    margin-bottom: $list-item-margin;
+  }
+
+  > li, > .list-item {
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  ul, ol, .list {
+    margin: 0;
+  }
+}
+
+//== Horizontal rule
+// ------------------------------------------
+
+hr, .hr {
+  margin-bottom: $hr-margin-bottom;
+  margin-top: $hr-margin-top;
+}

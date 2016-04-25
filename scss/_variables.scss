@@ -7,19 +7,6 @@
 // Variable format should follow the `$component-modifier-state-property` order.
 // ------------------------------------------
 
-//== Options
-//
-// Quickly modify global styling by enabling or disabling optional features.
-// ------------------------------------------
-
-// `$enable-typosaurus` overrides all settings below
-$enable-typosaurus:	    true !default;  	//** default: [===[true]]
-
-$enable-grid:		        true !default;  	//** default: [===[true]]
-$enable-spacing:	      true !default;  	//** default: [===[true]]
-$enable-rounded:	      true !default;  	//** default: [===[true]]
-$enable-typography:	    true !default;  	//** default: [===[true]]
-
 //== Variables
 //
 // Available formulas:
@@ -46,28 +33,19 @@ $enable-typography:	    true !default;  	//** default: [===[true]]
 // Quickly modify global variables by edit the following features.
 // ------------------------------------------
 
-@if $enable-typosaurus == true {
-  $font-size-root:    16px !default; //** default: 16px
-  $font-size-base:    1rem !default; //** ~ $font-size-root
+$font-size-root:    16px !default; //** default: 16px
+$font-size-base:    1rem !default; //** ~ $font-size-root
 
-  $line-height-base:  map-get($factors, 'perfect-fifth') !default;          //** 1.500 - Perfect fifth
-  $line-height-lg:    map-get($factors, 'factor-golden-section') !default;  //** 1.618 - Golden Section
-  $line-height-sm:    map-get($factors, 'factor-major-second') !default;    //** 1.125 - Major second
+$line-height-base:  map-get($factors, 'perfect-fifth') !default;          //** 1.500 - Perfect fifth
+$line-height-lg:    map-get($factors, 'golden-section') !default;         //** 1.618 - Golden Section
+$line-height-sm:    map-get($factors, 'major-second') !default;           //** 1.125 - Major second
 
-  $scale-factor:      map-get($factors, 'factor-aug-fourth-dim-fifth') !default;  //** 1.414 - Augmented fourth / diminished fifth
-  $scale-factor-lg:   map-get($factors, 'factor-golden-section') !default;        //** 1.618 - Golden Section
-  $scale-factor-md:   map-get($factors, 'factor-major-second') !default;          //** 1.125 - Major second
-  $scale-factor-sm:   map-get($factors, 'factor-major-first') !default;           //** 0.875 - Major first
-  $scale-factor-xs:   map-get($factors, 'factor-minor-first') !default;           //** 0.750 - Minor first
-}
+$scale-factor:      map-get($factors, 'aug-fourth-dim-fifth') !default;   //** 1.414 - Augmented fourth / diminished fifth
+$scale-factor-lg:   map-get($factors, 'golden-section') !default;         //** 1.618 - Golden Section
+$scale-factor-md:   map-get($factors, 'major-second') !default;           //** 1.125 - Major second
+$scale-factor-sm:   map-get($factors, 'major-first') !default;            //** 0.875 - Major first
+$scale-factor-xs:   map-get($factors, 'minor-first') !default;            //** 0.750 - Minor first
 
-//== Border radius
-//
-// Allows for customizing border radius independently from global border radius
-// ------------------------------------------
-
-@if $enable-typosaurus == true and $enable-rounded == true {
-  $border-radius:     get-spacer('1/3') !default;
-  $border-radius-lg:  get-spacer('1/2') !default;
-  $border-radius-sm:  get-spacer('1/4') !default;
-}
+$border-radius:     '1/3' !default; // Amount of spacer
+$border-radius-lg:  '1/2' !default; // Amount of spacer
+$border-radius-sm:  '1/4' !default; // Amount of spacer
